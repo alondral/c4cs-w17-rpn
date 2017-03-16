@@ -7,8 +7,8 @@ class TestBasics(unittest.TestCase):
 		self.assertEqual(2, result)
 
 	def test_sub(self):
-		result = rpn.calculate("5 1 -")
-		self.assertEqual(4, result)
+		result = rpn.calculate("5 3 -")
+		self.assertEqual(2, result)
 
 	def test_mul(self):
 		result = rpn.calculate("8 3 *")
